@@ -53,7 +53,7 @@ O pip é muito usado e você o encontrará na maioria dos projetos python. Mas o
 
 Note que é um processo manual. Por esse motivo existem outras opções como o pipenv, que é o que tenho usado, onde ele já faz a gestão das dependências de forma mais automática.
 
-Para instalar o pipenv fora do seu ambiente virtual digite o comando:
+Para instalar o [Pipenv](https://www.python.org/downloads/ "Pipenv´s downloads page") fora do seu ambiente virtual digite o comando:
 
 ```
 C:\python_projects\introducao-pandas>pip install pipenv

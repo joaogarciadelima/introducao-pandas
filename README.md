@@ -7,5 +7,5 @@
 
 Para começar o básico da instalação do python e gerenciamento de dependências:
 
-[Instalação Python](README.md)
+[Instalação Python](instalacaopython.md)
 
