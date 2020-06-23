@@ -75,3 +75,44 @@ PIPENV_VENV_IN_PROJECT com o valor de 1
 ```
 
 Assim ao instalar qualquer lib no seu projeto se não houver ainda um ambiente virtual criado ele criará na raiz do seu projeto.
+
+
+## POETRY
+
+Outra opção para gerenciar as suas dependências é usar o poetry:
+
+Para instalar no windows abra o power shell e digite:
+
+```
+(Invoke-WebRequest -Uri https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py -UseBasicParsing).Content | python
+
+```
+Para verificar a instalação digite
+```
+poetry --version
+
+```
+
+Assim como o pipenv eu prefico que os ambientes virtuais sejam criados dentro da pasta do projeto então digite
+
+```
+poetry config virtualenvs.in-project true
+
+```
+
+Para conferir se a configuração deu certo digite:
+
+```
+poetry config --list
+
+```
+
+![alt](img/poetry-configs.png)
+
+
+Para adicionar dependências digite:
+
+```
+poetry add <lib>
+
+```
