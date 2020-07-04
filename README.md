@@ -11,3 +11,7 @@ Para começar o básico da instalação do python e gerenciamento de dependênci
 
 [Gestão de dependências](https://github.com/joaogarciadelima/introducao-pandas/blob/master/instalacaopython.md#ambientes-virtuais)
 
+[Instalação Pandas](instalacaopandas.md)
+
+[Instalação Jupyter](instalacaojupyter.md)
+
